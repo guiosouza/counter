@@ -9,7 +9,7 @@ export default function LinearProgressWithLabel({ onProgress }) {
   React.useEffect(() => {
     const calculateProgress = () => {
       const startDate = new Date('2024-08-31T20:00:00');
-      const endDate = new Date('2024-12-29T00:00:00');
+      const endDate = new Date('2024-12-31T00:00:00');
       const currentDate = new Date();
 
       const totalMinutes = (endDate - startDate) / 1000 / 60;
@@ -45,7 +45,7 @@ export default function LinearProgressWithLabel({ onProgress }) {
         textColor="black"
         sx={{ marginBottom: '8px' }}
       >
-        120 days challenge progress: {progress.toFixed(6)}%
+        Desafio de 120 dias: {progress.toFixed(6)}%
       </Typography>
       <LinearProgress
         determinate

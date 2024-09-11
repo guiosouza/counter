@@ -8,17 +8,17 @@ import SdCardAlert from "@mui/icons-material/SdCardAlert";
 
 export default function CustomStepper({ progress }) {
   const steps = [
-    { label: "Day 2", day: 2 },
-    { label: "Day 4", day: 4 },
-    { label: "Day 6", day: 6 },
-    { label: "Day 10", day: 10 },
-    { label: "Day 17", day: 17 },
-    { label: "Day 25", day: 25 },
-    { label: "Day 32", day: 32 },
-    { label: "Day 54", day: 54 },
-    { label: "Day 90", day: 90 },
-    { label: "Day 111", day: 111 },
-    { label: "Day 120", day: 120 },
+    { label: "Dia 2", day: 2 },
+    { label: "Dia 4", day: 4 },
+    { label: "Dia 6", day: 6 },
+    { label: "Dia 10", day: 10 },
+    { label: "Dia 17", day: 17 },
+    { label: "Dia 25", day: 25 },
+    { label: "Dia 32", day: 32 },
+    { label: "Dia 54", day: 54 },
+    { label: "Dia 90", day: 90 },
+    { label: "Dia 111", day: 111 },
+    { label: "Dia 120", day: 120 },
   ];
 
   const currentDay = Math.floor((progress / 100) * 120); // Progresso em dias
@@ -80,7 +80,7 @@ export default function CustomStepper({ progress }) {
           }
         >
           <div>
-            <Typography level="title-sm">Step {index + 1}</Typography>
+            <Typography level="title-sm">Passo {index + 1}</Typography>
             {step.label}
           </div>
         </Step>
