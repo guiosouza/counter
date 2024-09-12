@@ -45,7 +45,7 @@ export default function LinearProgressWithLabel({ onProgress }) {
         textColor="black"
         sx={{ marginBottom: '8px' }}
       >
-        Desafio de 120 dias: {progress.toFixed(6)}%
+        Progresso em relação aos 121 dias: {progress.toFixed(6)}%
       </Typography>
       <LinearProgress
         determinate
